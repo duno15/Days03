@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULLER Lucas - Portfolio</title>
+    <!-- MaterializeCSS v2 (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.1.1/dist/css/materialize.min.css">
+</head>
+<body class="grey lighten-4">
+
+    <!-- ===== Step A : bandeau ===== -->
+    <div class="indigo darken-2 section">
+        <h1 class="white-text center-align">MULLER Lucas</h1>
+        <h4 class="grey-text white center-align">Heading - Étudiant en business &amp; développement web</h4>
+    </div>
+
+    <div class="container">
+
+        <!-- ===== Step B / C / D : About me ===== -->
+        <div class="row">
+            <div class="col s12">
+                <h2 class="center-align">About me</h2>
+            </div>
+
+            <!-- Story -->
+            <div class="col s12 m4">
+                <h3 class="center-align">Story</h3>
+                <p>
+                    Étudiant à NEOMA Business School et en parallèle dans le programme MSc Pro d'Epitech,
+                    je combine gestion d'entreprise et nouvelles technologies. J'ai effectué un stage de
+                    trois mois comme vendeur de montures chez GrandOptical sur les Champs-Élysées.
+                    Mon objectif : une vision 360° du business (marque, pricing, recrutement, stock)
+                    connectée au digital.
+                </p>
+            </div>
+
+            <!-- Profile -->
+            <div class="col s12 m4 indigo darken-2">
+                <h3 class="center-align white-text">Profile</h3>
+                <div class="card indigo darken-2 z-depth-0">
+                    <div class="card-content white-text center-align">
+                        <img class="circle responsive-img" src="img/profil.jpg" alt="Photo de profil">
+                        <p>Lucas - Paris, France</p>
+                    </div>
+                    <div class="card-action center-align">
+                        <a class="white-text" href="https://github.com/duno15" target="_blank">GitHub</a>
+                        <a class="white-text" href="https://www.linkedin.com/in/lucasmuller1/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="col s12 m4">
+                <h3 class="center-align">Skills</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Comment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Structure sémantique des pages</td>
+                        </tr>
+                        <tr class="grey lighten-2">
+                            <td>CSS</td>
+                            <td>Flexbox, media queries, responsive</td>
+                        </tr>
+                        <tr>
+                            <td>MaterializeCSS</td>
+                            <td>Grille, cartes, formulaires</td>
+                        </tr>
+                        <tr class="grey lighten-2">
+                            <td>Git / GitHub</td>
+                            <td>Versionner et rendre mes projets</td>
+                        </tr>
+                        <tr>
+                            <td>Photoshop</td>
+                            <td>Retouche, composition, visuels</td>
+                        </tr>
+                        <tr class="grey lighten-2">
+                            <td>Illustrator / InDesign / Blender</td>
+                            <td>Identité visuelle, mise en page, 3D</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ===== Step E : Portfolio ===== -->
+        <div class="row">
+            <div class="col s12">
+                <h2 class="center-align">Portfolio</h2>
+            </div>
+            <div class="col s12 m4">
+                <img class="responsive-img" src="img/portfolio1.jpg" alt="Photoshop - Photos de classe et Sophie Marceau">
+            </div>
+            <div class="col s12 m4">
+                <img class="responsive-img" src="img/portfolio2.jpg" alt="Photoshop - Modelisation d objets">
+            </div>
+            <div class="col s12 m4">
+                <img class="responsive-img" src="img/portfolio3.jpg" alt="Photoshop - Bruce Willis et goodies">
+            </div>
+        </div>
+
+        <!-- ===== Step E : Last projects ===== -->
+        <div class="row">
+            <div class="col s12">
+                <h2 class="center-align">Last projects</h2>
+            </div>
+            <div class="col s12 m4">
+                <img class="responsive-img" src="img/greenimpact1.jpg" alt="Green Impact - Le lancement">
+            </div>
+            <div class="col s12 m4">
+                <img class="responsive-img" src="img/greenimpact2.jpg" alt="Green Impact - Lucas Muller PDG">
+            </div>
+            <div class="col s12 m4">
+                <img class="responsive-img" src="img/greenimpact3.jpg" alt="Green Impact - Fonctionnement et innovation">
+            </div>
+        </div>
+
+        <!-- ===== Step F : Contact ===== -->
+        <div class="row">
+            <div class="col s12">
+                <h2 class="center-align">Contact</h2>
+            </div>
+            <div class="col s12">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="lastname" type="text">
+                                <label for="lastname">Lastname</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="firstname" type="text">
+                                <label for="firstname">Firstname</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="message" class="materialize-textarea" placeholder="Your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 center-align">
+                                <button class="btn indigo darken-2" type="submit">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.1.1/dist/js/materialize.min.js"></script>
+</body>
+</html>

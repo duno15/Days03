@@ -1,0 +1,47 @@
+/* ===== Base : smartphone (mobile first, < 768px) ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+}
+
+header,
+section,
+article,
+footer {
+    padding: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.articles article {
+    min-height: 120px;
+}
+
+/* On cache les articles a partir du 3e */
+.articles article:nth-child(n+3) {
+    display: none;
+}
+
+.green {
+    min-height: 120px;
+}
+
+/* ===== Couleurs ===== */
+.blue   { background-color: #67B3DD; }
+.green  { background-color: #9EE062; }
+.yellow { background-color: #FEDF6B; }
+.red    { background-color: #FC302D; }
